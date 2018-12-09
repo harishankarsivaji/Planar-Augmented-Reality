@@ -1,0 +1,15 @@
+	 To load the default (base) conda environment, for python 2, use the following command. 
+		 source activate
+ 
+	 To list other available environments, use the following command
+		 conda info --envs
+ 
+	 To load a non-default environment, e.g. for python3,  use the following command
+		 source activate python3
+ 
+VIDEOIO ERROR: V4L: can't open camera by index 0
+Exception Occured
+Traceback (most recent call last):
+  File "camera.py", line 93, in <module>
+    replaceImg = cv2.imread(images[currentImage])
+IndexError: list index out of range
